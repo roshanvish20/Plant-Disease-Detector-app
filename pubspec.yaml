@@ -1,0 +1,53 @@
+name: demos
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7
+  tflite_flutter: ^0.11.0
+  # tflite_flutter_helper: ^0.5.0
+  cupertino_icons: ^1.0.8
+  image: ^4.1.3
+  supabase_flutter: ^2.8.3
+  google_sign_in: ^6.2.2
+  url_launcher: ^6.1.7
+  permission_handler: ^11.3.1
+  font_awesome_flutter: ^10.7.0
+  animated_text_kit: ^4.2.2
+  lottie: ^2.6.0
+  intl: ^0.20.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  rename: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/plant_icon.png" # Ensure the correct file path
+  remove_alpha_ios: true  # Prevents transparency issues on iOS
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/plant1.jpeg
+    - assets/Google.png
+    - assets/plant2.jpeg
+    - assets/plant3.jpeg
+    - assets/plant_disease_model.tflite
+    - assets/plant_disease_models.tflite
+    - assets/class_labels.json
+    - assets/plant_scan.json
+    
+
